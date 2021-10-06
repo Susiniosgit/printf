@@ -15,9 +15,8 @@ typedef struct print
 
 int _putchar(char c);
 int _printf(const char *format, ...);
-unsigned int _memcpy(buffer_t *output, const char *src, unsigned int n);
-void free_buffer(buffer_t *output);
-buffer_t *init_buffer(void);
+int percent_handler(const char *str, va_list list, int *i);
+int handler(const char *str, va_list list);
 
 int print_c(va_list c);
 int print_s(va_list s);
