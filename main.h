@@ -28,6 +28,11 @@ int print_p(va_list p);
 int print_S(va_list S);
 int print_r(va_list r);
 int print_R(va_list R);
+int print_bigS(va_list l, mods *f);
+_Bool isNonAlphaNumeric(char c);
+int print_rev(va_list l, mods *f);
+int print_rot13(va_list l, mods *f);
+int print_percent(va_list l, mods *f);
 
 #endif
 

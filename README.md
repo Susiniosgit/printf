@@ -1,4 +1,4 @@
-## _printf
+## printf
 ## Overview
     ### _printf is a collection of C files that when compiled and executed, produces output according to a format.
 
