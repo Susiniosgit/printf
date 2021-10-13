@@ -24,8 +24,12 @@ Upon error, it returns -1 If NULL is passed in as a string argument, it prints (
 
 ### Files
 
-| File Name     |           description                                        |
-|- -------------|--------------------------------------------------------------|
-| _printf.c     |	produces output according to a format                  || helper_funcs.c|	File containing functions for specifiers               || _putchar.c	|       File containing function that writes a char to stdou   || _more_funcs.c	|       File containing functions for more specifiers          || main.h	|Header file with function prototypes and struct for specifiers|
+| File Name     |           description                                          |
+|---------------|----------------------------------------------------------------|
+| _printf.c     |	produces output according to a format                    |
+| helper_funcs.c|	File containing functions for specifiers                 | 
+| _putchar.c	|       File containing function that writes a char to stdou     | 
+| _more_funcs.c	|       File containing functions for more specifiers            |
+| main.h	| Header file with function prototypes and struct for specifiers |
 ## About
 Created on Ubuntu 14.04 LTS. Compiled with gcc 4.8.4, using flags: -Wall -Werror -Wextra and -pedantic
