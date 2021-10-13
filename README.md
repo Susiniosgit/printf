@@ -4,14 +4,15 @@
 - Prototype of _printf function int _printf(const char *format, ...); Returns: the number of characters printed (excluding the null byte used to end output to strings)
 ## Usage
 - Include main.h Call _printf, passing a formatted string with any format specifiers and optional arguments Upon success, it writes desired output to stdout
-Upon error, it returns -1 If NULL is passed in as a string argument, it prints (null) Format Specifiers
-|Format Specifier |Description	      |Function name |
-|-----------------|-------------------|--------------|
-|  %c	          | Prints a character|	_printchar   |
-|  %s             |Prints a string    |	_printstring |
-|  %%	          |Prints a percent   |	_printf      |
-|  %i & %d	  |Prints a number    |	_printint    |
-|  %R             |Prints a rot13'ed string| _rot13  |
+Upon error, it returns -1 If NULL is passed in as a string argument, it prints (null) 
+
+|Format Specifier |Description	            |Function name   |
+|-----------------|-------------------------|----------------|
+|  %c	          | Prints a character      |	_printchar   |
+|  %s             |Prints a string          |	_printstring |
+|  %%	          |Prints a percent         |	_printf      |
+|  %i & %d	  |Prints a number          |	_printint    |
+|  %R             |Prints a rot13'ed string |    _rot13      |
 ### Example Usage
 - _printf("%c", 'd') prints the character d
 - _printf("%s", "Hello, world\n") prints "Hello, world", followed by a new line
