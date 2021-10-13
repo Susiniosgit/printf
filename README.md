@@ -1,12 +1,9 @@
-## printf
+## _printf
 ## Overview
-    ### _printf is a collection of C files that when compiled and executed, produces output according to a format.
-
-Prototype of _printf function
-int _printf(const char *format, ...); Returns: the number of characters printed (excluding the null byte used to end output to strings)
-
+- _printf is a collection of C files that when compiled and executed, produces output according to a format.
+- Prototype of _printf function int _printf(const char *format, ...); Returns: the number of characters printed (excluding the null byte used to end output to strings)
 ## Usage
- Include main.h
+- Include main.h
 Call _printf, passing a formatted string with any format specifiers and optional arguments
 Upon success, it writes desired output to stdout
 Upon error, it returns -1
